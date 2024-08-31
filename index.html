@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MSgym</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="site-title"><img src="img/logo2.jpg" alt="ロゴ"></h1>
+
+        <nav>
+            <ul>
+                <li><a href="#class">クラス紹介</a></li>
+                <li><a href="#voice">会員の声</a></li>
+                <li><a href="#price">料金</a></li>
+                <li><a href="#schedule">スケジュール</a></li>
+                <li><a href="#map">アクセス</a></li>
+                <li><a href="#info">問い合わせ</a></li>
+            </ul>
+        </nav>
+
+        <ul class="sp-nav">
+            <li><a href="#class">クラス紹介</a></li>
+            <li><a href="#voice">会員の声</a></li>
+            <li><a href="#price">料金</a></li>
+            <li><a href="#schedule">スケジュール</a></li>
+            <li><a href="#map">アクセス</a></li>
+            <li><a href="#info">問い合わせ</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="mainvisual">
+            <p id="copy1">笑顔の先に強さがある</p>
+            <p id="copy2"><span class="breaks">格闘技を、</span>もっと楽しく</p>
+
+            <canvas id="waveCanvas">
+
+            </canvas>
+
+
+        </div>
+
+        <section id="about" class="wrapper">
+            <h2 class="section-title">ジムについて</h2>
+            <div class="about-detail">
+                <div class="about-img">
+                    <ul class="fade">
+                        <li><img src="img/about1.jpg"></li>
+                        <li><img src="img/about2.jpg"></li>
+                        <li><img src="img/about3.jpg"></li>
+                    </ul>
+                </div>
+                <div class="about-text">
+                    <p>楽しさと強さが融合した格闘技ジムへようこそ</p>
+                    <p>初心者から経験者まで、笑顔と共に体力を鍛え、技を磨くことができます。</p>
+                    <p>リラックスした雰囲気で、仲間と一緒に楽しみながら成長しませんか？</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="class" class="wrapper">
+            <h2 class="section-title">クラス紹介</h2>
+            <div class="class-items">
+                <div class="class-item">
+                    <span class="class-title">キックボクシング</span>
+                    <img src="img/kick.jpg" alt="キックボクシング">
+                    <p>パンチやキックなどの打撃技を主体とする競技です。</p>
+                </div>
+                <div class="class-item">
+                    <span class="class-title">ブラジリアン柔術</span>
+                    <img src="img/bjj.jpg" alt="ブラジリアン柔術">
+                    <p>寝技を中心とする競技です。柔術着を付けて行います。</p>
+                </div>
+                <div class="class-item">
+                    <span class="class-title">グラップリング</span>
+                    <img src="img/grappling.jpg" alt="グラップリング">
+                    <p>打撃技（パンチやキック）を使用せずに、相手を制するための技術を用いる競技です。</p>
+                </div>
+                <div class="class-item">
+                    <span class="class-title">総合格闘技</span>
+                    <img src="img/mma.jpg" alt="総合格闘技">
+                    <p>キックボクシング・ブラジリアン柔術・グラップリングなど様々な競技の技術を組み合わせます。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="voice">
+            <div id="particles-js"></div>
+            <div id="voice-wrapper">
+                <div class="voice-inner">
+                    <h2 class="section-title">会員の声</h2>
+                    <div class="voice-left">
+                        <div class="student">
+                            <img src="img/man.png" alt="30代会社員">
+                            <p class="student-name">30代会社員</p>
+                        </div>
+                        <div class="student-voice">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                    </div>
+                    <div class="voice-rigth">
+                        <div class="student-voice">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                        <div class="student">
+                            <img src="img/woman2.png" alt="40代主婦">
+                            <p class="student-name">40代主婦</p>
+                        </div>
+                    </div>
+                    <div class="voice-left">
+                        <div class="student">
+                            <img src="img/man2.png" alt="20代大学生">
+                            <p class="student-name">20代大学生</p>
+                        </div>
+                        <div class="student-voice">
+                            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="price" class="wrapper">
+            <h2 class="section-title">料金</h2>
+            <div class="price-items fadeUpTrigger">
+                <div class="price-item">
+                    <div class="price-inner">
+                        <p>フリー会員</p>
+                        <p class="value">10,000円</p>
+                        <p class="tax">月額+tax</p>
+                        <p class="registration">入会金10,000円</p>
+                        <p>テキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                </div>
+                <div class="price-item">
+                    <div class="price-inner">
+                        <p>週一会員</p>
+                        <p class="value">6,000円</p>
+                        <p class="tax">月額+tax</p>
+                        <p class="registration">入会金5,000円</p>
+                        <p>テキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                </div>
+                <div class="price-item">
+                    <div class="price-inner">
+                        <p>昼クラス会員</p>
+                        <p class="value">7,500円</p>
+                        <p class="tax">月額+tax</p>
+                        <p class="registration">入会金6,000円</p>
+                        <p>テキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="schedule">
+            <h2 class="section-title">スケジュール</h2>
+            <div class="inner-wrapper">
+                <div class="accordion-inner">
+                    <h3 class="day">月曜日</h3>
+                    <div class="box">
+                        <dl>
+                            <dt>18:30-19:50</dt>
+                            <dd>キックボクシング</dd>
+                            <dt>20:00-21:50</dt>
+                            <dd>ブラジリアン柔術</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="accordion-inner">
+                    <h3 class="day">火曜日</h3>
+                    <div class="box">
+                        <dl>
+                            <dt>18:30-19:50</dt>
+                            <dd>ブラジリアン柔術</dd>
+                            <dt>20:00-21:50</dt>
+                            <dd>総合格闘技</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="accordion-inner">
+                    <h3 class="day">水曜日</h3>
+                    <div class="box">
+                        <dl>
+                            <dt>18:30-19:50</dt>
+                            <dd>キックボクシング</dd>
+                            <dt>20:00-21:50</dt>
+                            <dd>ブラジリアン柔術</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="accordion-inner">
+                    <h3 class="day">木曜日</h3>
+                    <div class="box">
+                        <dl>
+                            <dt>18:30-19:50</dt>
+                            <dd>キックボクシング</dd>
+                            <dt>20:00-21:50</dt>
+                            <dd>グラップリング</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="accordion-inner">
+                    <h3 class="day">金曜日</h3>
+                    <div class="box">
+                        <dl>
+                            <dt>17:00-18:15</dt>
+                            <dd>キッズクラス</dd>
+                            <dt>18:30-19:50</dt>
+                            <dd>キックボクシング</dd>
+                            <dt>20:00-21:50</dt>
+                            <dd>ブラジリアン柔術</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="accordion-inner">
+                    <h3 class="day">土曜日</h3>
+                    <div class="box">
+                        <dl>
+                            <dt>12:00-14:30</dt>
+                            <dd>ブラジリアン柔術</dd>
+                            <dt>14:30-15:30</dt>
+                            <dd>グラップリング</dd>
+                            <dt>15:45-17:00</dt>
+                            <dd>キックボクシング</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="shapedividers_com-963"></div>
+
+        <section id="map" class="wrapper">
+            <h2 class="section-title">アクセス</h2>
+            <div class="map-items">
+                <div class="map-area">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7625.520096517689!2d127.69553247524617!3d26.199339640456266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e56914384e0da1%3A0xc6f1b9e117ca5814!2z44CSOTAyLTAwNzUg5rKW57iE55yM6YKj6KaH5biC5Zu95aC0!5e0!3m2!1sja!2sjp!4v1723638384763!5m2!1sja!2sjp"
+                        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="address-area">
+                    <p>〒123-345</p>
+                    <p>住所：沖縄県那覇市</p>
+                    <p>電話番号：000-000-0000</p>
+                    <p>最寄り駅：ゆいレール 赤嶺駅</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="shapedividers_com-2290"></div>
+        <section id="info">
+            <h2 class="section-title">お問い合わせ</h2>
+            <div class="inner-wrapper">
+                <form action="#" method="post">
+                    <div class="form-name">
+                        <label for="name">名前</label>
+                        <input type="text" id="name" name="your-name">
+                    </div>
+                    <div class="form-mail">
+                        <label for="email">Mail</label>
+                        <input type="email" name="your-email" id="email">
+                    </div>
+        
+                    <div class="form-text">
+                        <label for="message">内容</label>
+                        <textarea name="your-message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="btn">
+                        <input type="submit" value="送信">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="wrapper">
+        <a class="to_top" href="#"></a>
+        <ul>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        </ul>
+        <p>&copy2024 MSgym</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
